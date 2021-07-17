@@ -17,8 +17,8 @@ services:
   mysqlconfigure:
     image: mysql:5.7.15
     environment:
-      - "MYSQL_SLAVE_PASSWORD=root"
-      - "MYSQL_MASTER_PASSWORD=root"
+      - "MYSQL_MASTER1_PASSWORD=root"
+      - "MYSQL_MASTER2_PASSWORD=root"
       - "MYSQL_ROOT_PASSWORD=root"
       - "MYSQL_REPLICATION_USER=repl"
       - "MYSQL_REPLICATION_PASSWORD=repl"
